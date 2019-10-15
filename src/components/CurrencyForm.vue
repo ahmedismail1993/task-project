@@ -12,7 +12,10 @@
       <div class="container__group--wrapper">
         <label for="plot_size">Plot size</label>
         <input id="plot_size" v-model="form.plotSize" />
-        <span class="total-percent">| m2</span>
+        <span class="total-percent">
+          | m
+          <span class="squared">2</span>
+        </span>
       </div>
     </section>
 
@@ -123,6 +126,10 @@ export default {
     top: 55%;
     right: 30px;
     color: #9e9e9e;
+  }
+  .squared {
+    font-size: 12px;
+    position: absolute;
   }
 }
 </style>
