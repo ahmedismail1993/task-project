@@ -71,12 +71,14 @@ export default {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-
-  height: 100vh;
+  width: 80vw;
+  height: 80vh;
+  margin: 20px auto;
 
   &__group {
     width: 40%;
     position: relative;
+
     &--dollarSign {
       &::after {
         content: '$';
