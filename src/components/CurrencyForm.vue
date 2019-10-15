@@ -20,8 +20,10 @@
     </section>
 
     <section class="container__group">
-      <label for="yearOfConstruction">Year of construction</label>
-      <input id="yearOfConstruction" v-model="form.yearOfConstruction" />
+      <div class="container__group--wrapper">
+        <label for="yearOfConstruction">Year of construction</label>
+        <input id="yearOfConstruction" v-model="form.yearOfConstruction" />
+      </div>
     </section>
     <section class="container__group">
       <div class="container__group--wrapper">
