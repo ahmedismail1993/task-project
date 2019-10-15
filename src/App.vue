@@ -15,6 +15,9 @@ export default {
 </script>
 
 <style >
+#app {
+  background-color: #fff;
+}
 * {
   box-sizing: border-box;
 }
