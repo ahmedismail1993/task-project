@@ -100,7 +100,6 @@ export default {
       border-radius: 8px;
       background: #fff;
       border: none;
-      //   border: 1px solid #ddd;
     }
     #netRentTotal {
       color: #ccc;
