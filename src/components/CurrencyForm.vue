@@ -54,10 +54,14 @@ export default {
   },
   methods: {
     async fetcData() {
-      const response = await fetch('https://server.offmade.io/code-challenge');
-      const data = await response.json();
-      this.form = data;
-      console.log(data);
+      try {
+        const response = await fetch('https://server.offmade.io/code-challenge');
+        const data = await response.json();
+        this.form = data;
+        console.log(data);
+      } catch (error) {
+        console.log(error);
+      }
     }
   }
 };
