@@ -87,11 +87,11 @@ export default {
       &::after {
         content: '$';
         position: absolute;
-        right: 5px;
+        right: 70px;
         top: 50%;
         line-height: 40px;
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
       }
     }
 
